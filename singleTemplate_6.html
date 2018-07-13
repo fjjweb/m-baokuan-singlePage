@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"   content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title></title>
+    <!--测试环境-->
+    <!-- <link rel="stylesheet" type="text/css" href="css/singleTemplate_6.css" /> -->
+    <!--<link rel="stylesheet" type="text/css" href="http://centertest.99114.cn/baokuan/css/singleTemplate_6.css" />-->
+    <!--<script type="text/javascript" src="http://centertest.99114.cn/baokuan/js/jquery-1.8.0.min.js" ></script>-->
+    <!--正式环境-->
+    <link rel="stylesheet" type="text/css" href="http://baokuan.99114.com/css/singleTemplate_6.css"/>
+    <script type="text/javascript" src="http://baokuan.99114.com/js/jquery-1.8.0.min.js"></script>
+</head>
+<body>
+    <div class="singlePage6_LDJ">
+        <!-- logo -->
+        <img class="WkLogo" src="images/ApplePage/appleD2_logo.png">
+        <!-- banner -->
+        <div class="LDJbanner">
+            <div class="topBannerImg"></div>
+            <!-- 商品图片 -->
+            <div class="topGoodsImg">
+                <img id="goodsImgUrl"  src="">
+            </div>
+            <!-- 商品价格 -->
+            <div class="topLDJPice">
+                <div class="marketPrice">
+                    <h6>市场价</h6>
+                    <p>
+                        <span class="fSize_24">￥</span>
+                        <span id="goodsPrice"></span>
+                    </p>
+                </div>
+                <div class="promotionPrice">
+                    <h6>促销价</h6>
+                    <p>
+                        <span class="fSize_24">￥</span>
+                        <span id="promotionPrice"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- 商品标题 -->
+        <div class="LDJTitle">
+            <p id="goodsName"></p>
+            <p id="companyName"></p>
+        </div>
+        <!-- 基本信息 -->
+        <div class="singleInfo">
+            <h2 class="singleInfo_title colorYellow">【基本信息】</h2>
+            <p class="singleInfo_slogan">精挑细选 品质保证 给您至尊享受</p>
+            <div class="singleInfo_content">
+                <ul class="left_info" id="GoodsAttrli">
+                </ul>
+            </div>
+        </div>
+        <!-- 详情信息 -->
+        <div class="singleDetails">
+            <h2 class="singleDetails_title colorYellow">【详情信息】</h2>
+            <div class="singleDetails_content" id="goodsDetail">
+            </div>
+        </div>
+        <!-- 底部公司信息 -->
+        <div class="water_footer paddingLR">
+        <div class="footer_head">
+            <dl>
+                <dt>
+                    <img id="shopImgUrl" src="images/ApplePage/tea1_touxiang_100.jpg"  alt="" />
+                </dt>
+                <dd id="corporationName"></dd>
+                <dd>
+                    <img id="credit" src="images/ApplePage/sf_icon.png">
+                    <img id="factory" src="images/ApplePage/bcp_icon.png">
+                    <img id="bcp" src="images/ApplePage/cj_icon.png">
+                </dd>
+            </dl>
+            <img class="memberLevel" style="display: none" src="http://centertest.99114.cn/baokuan/images/b_free.png">
+            <img class="memberLevel" style="display: none" src="http://centertest.99114.cn/baokuan/images/b_free.png">
+            <img class="memberLevel" style="display: none" src="http://centertest.99114.cn/baokuan/images/b_dpt.png">
+            <img class="memberLevel" style="display: none" src="http://centertest.99114.cn/baokuan/images/b_jp.png">
+            <img class="memberLevel" style="display: none" src="http://centertest.99114.cn/baokuan/images/b_bw.png">
+            <img class="memberLevel" style="display: none" src="http://centertest.99114.cn/baokuan/images/b_dpt.png">
+        </div>
+    </div>
+    <div class="footer_use">
+        <ul>
+            <li>
+                <a href="javascript:" id="tel"><img src="images/ApplePage/footerIcon001.png" alt=""><span>联系商家</span></a>
+            </li>
+            <li>
+                <a href="javascript:" id="buyNow"><img src="images/ApplePage/footerIcon002.png" alt=""><span>立即购买</span></a>
+            </li>
+            <li>
+                <a href="javascript:" id="share"><img src="images/ApplePage/footerIcon003.png" alt=""><span>我要分享</span></a>
+            </li>
+        </ul>
+    </div>
+        <!-- 分享遮罩层 -->
+        <div id="shareWrap" class="shareWrap" style="display: none">
+            <img src="http://centertest.99114.cn/baokuan/images/tips.png" alt="">
+        </div> 
+    </div>
+</body>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<!--测试环境-->
+<!--<script src="http://centertest.99114.cn/baokuan/js/newIndex.js"></script>-->
+<!--<script src="./js/newIndex.js"></script>-->
+<!--<script type="text/javascript" src="http://centertest.99114.cn/baokuan/js/rem.js"></script>-->
+<!--<script type="text/javascript" src="js/rem.js"></script>-->
+<!--正是环境-->
+<script src="http://baokuan.99114.com/js/newIndex.js"></script>
+<script type="text/javascript" src="http://baokuan.99114.com/js/rem.js"></script>
+</html>

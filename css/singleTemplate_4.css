@@ -1,0 +1,534 @@
+/* 代码初始化开始 */
+body { color: #3c3c3c;font-family: "Microsoft Yahei",'Hiragino Sans GB'; }
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+.paddingLR20{padding: 0 1.85rem; box-sizing: border-box;}
+.fl {
+  float: left;
+  display: inline;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.clear {
+  height: 0px;
+  line-height: 0px;
+  clear: both;
+}
+.textC {
+  text-align: center
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+/* 初始化样式结束 */
+/* ------------banner--------- */
+.baokuandanye04{
+  width: 100%;
+  height: auto;
+  background: #393939;
+}
+.colorYellow{
+    color: #fcd302;
+}
+.baokuandanye04>.WkLogo{
+    position: absolute;
+    top: 1.0rem;
+    left: 1.0rem;
+    z-index: 100;
+    width: 11.45rem!important;
+    height: 2.1rem;
+}
+.baokuandanye04 .topBanner{
+  width: 100%;
+  height: 38rem;
+  position: relative;
+  background: url(../images/ApplePage/dy04_jxBG01.jpg) no-repeat;
+  background-size: 100% 100%;
+  padding-top: 4.5rem;
+  box-sizing: border-box;
+}
+.baokuandanye04 .topBannerMTitle>p:nth-child(1){
+  font-size: 2.6rem;
+  color: #fff;
+  width: 90%;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+.baokuandanye04 .topBannerMTitle>p:nth-child(2){
+  font-size: 2.0rem;
+  color: #fff;
+  width: 90%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+.baokuandanye04 .topBannerGoodsImg{
+  width: 20.0rem;
+  height: 20.0rem;
+  border: 0.5rem solid #747474;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+.baokuandanye04 .topBannerGoodsImg img{
+  width: 100%;
+  height: 100%;
+}
+.baokuandanye04 .topBannerprice{
+    width: 17rem;
+    height: 4.0rem;
+    line-height: 4rem;
+    background: #e40941;
+    color: #fcff00;
+    text-align: center;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 30rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 111;
+    white-space: nowrap;
+}
+.baokuandanye04 .topBannerprice .GoodsMoney{
+    font-size: 2.0rem;
+}
+.baokuandanye04>.danye04_tedian{
+  width: 100%;
+  height: 33.0rem;
+   background: #393939;
+   position: relative;
+}
+.baokuandanye04>.danye04_tedian ul{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: -1.5rem;
+  left: 0;
+  right: 0;
+}
+.baokuandanye04>.danye04_tedian li{
+  width: 11.0rem;
+  height: 17.0rem;
+  margin: 0 0.75rem;
+  padding-top: 5.0rem;
+  box-sizing: border-box;
+}
+.baokuandanye04>.danye04_tedian li:nth-child(1){
+  background: url(../images/ApplePage/dy04_tedian01_03.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.baokuandanye04>.danye04_tedian li:nth-child(2){
+  background: url(../images/ApplePage/dy04_tedian02_06.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.baokuandanye04>.danye04_tedian li:nth-child(3){
+  background: url(../images/ApplePage/dy04_tedian03_08.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.baokuandanye04 .tedian_top>p{
+  color: #000;
+}
+.baokuandanye04 .tedian_top>p:nth-of-type(1){
+  font-size: 1.7rem;
+  height: 2.5rem;
+  line-height: 2.0rem;
+  text-align: center;
+}
+.baokuandanye04 .tedian_top>p:nth-of-type(2){
+  font-size: 1.2rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.baokuandanye04 .tedian_top>span{
+  width: 80%;
+  height: 0.05rem;
+  background: #000;
+  display: block;
+  margin: auto;
+}
+.baokuandanye04 .danye04_youdian{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 18rem;
+  left: 0;
+  right: 0;
+}
+.baokuandanye04 .danye04_youdian .tedian_bottom{
+  width: 11.0rem;
+  height: 12.5rem;
+  margin: 0 0.75rem;
+  box-sizing: border-box;
+  color: #fff;
+  padding-top: 2.75rem;
+}
+.baokuandanye04 .tedian_bottom:nth-child(1){
+  background: url(../images/ApplePage/dy04_chaoanquan.png) no-repeat;
+  background-size: 100% 100%;
+}
+.baokuandanye04 .tedian_bottom:nth-child(2){
+  background: url(../images/ApplePage/dy04_gaoxingneng.png) no-repeat;
+  background-size: 100% 100%;
+}
+.baokuandanye04 .tedian_bottom:nth-child(3){
+  background: url(../images/ApplePage/dy04_chaodijia.png) no-repeat;
+  background-size: 100% 100%;
+}
+.baokuandanye04 .tedian_bottom>p:nth-of-type(1){
+  font-size: 2.0rem;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+}
+.baokuandanye04 .tedian_bottom>p:nth-of-type(2){
+  font-size: 1.3rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.baokuandanye04 .tedian_bottom>span{
+  width: 80%;
+  height: 0.05rem;
+  background: #fff;
+  display: block;
+  margin: auto;
+}
+.baokuandanye04 .danye04_goodsBOx{
+   width: 100%;
+  height: 20.0rem;
+  position: relative;
+}
+.baokuandanye04 .danye04_goods{
+  width: 35.0rem;
+  height: 23.0rem;
+  margin: auto;
+  background: url(../images/ApplePage/dy04_goodsBgImg_20.jpg) no-repeat;
+  background-size: 100% 100%;
+  padding: 0.4rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 0;
+  right: 0;
+  justify-content: center;
+}
+.baokuandanye04 .goodsImg,.baokuandanye04 .goodsInfo{
+  width: 50%;
+  height: 100%;
+}
+.baokuandanye04 .danye04_goods .goodsImg>img{
+  width: 100%;
+  height: 100%;
+}
+.baokuandanye04 .goodsInfo{
+  font-size: 1.3rem;
+  padding: 1.0rem;
+  box-sizing: border-box;
+}
+.baokuandanye04 .goodsInfo li{
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #fff;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.baokuandanye04 .goodsInfo li>input{
+  color: #fff;
+  text-indent: 0.6rem;
+}
+.baokuandanye04 .goodsInfo li>p:nth-child(1){
+  color: #fed700;
+  
+}
+.baokuandanye04 .goodsInfo li>p:nth-child(2){
+  color: #fff;
+}
+.baokuandanye04 .danye04_pinzhi{
+  width: 100%;
+  height: 42.5rem;
+  background: url(../images/ApplePage/dy04_jxBG02.jpg) no-repeat;
+  background-size: 100% 100%;
+  padding-top: 8.5rem;
+  box-sizing: border-box;
+}
+.baokuandanye04 .pinzhiTitle{
+  margin-bottom: 2.25rem;
+  color: #000;
+}
+.baokuandanye04 .pinzhiTitle>h2{
+  font-size: 2.5rem;
+  height: 4.0rem;
+  line-height: 3.5rem;
+  padding-left: 2.25rem;
+  box-sizing: border-box;
+}
+.baokuandanye04 .pinzhiTitle>p{
+  font-size: 1.5rem;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  padding-left: 2.25rem;
+  box-sizing: border-box;
+  margin-bottom: 0.25rem;
+}
+.baokuandanye04 .pinzhiTitle>span{
+  background: #000;
+  width: 7.5rem;
+  height: 0.4rem;
+  margin-left: 2.25rem;
+  display: inline-block;
+}
+.baokuandanye04 .pinzhiImg{
+  display: flex;
+  justify-content:center;
+}
+.baokuandanye04 .pinzhiImg img{
+  width: 10.5rem;
+  height: 17.5rem;
+  margin: 0 0.5rem;
+}
+ .baokuandanye04 .danye04_sheng{
+  width: 100%;
+}
+ .baokuandanye04 .danye04_sheng .pinzhiTitle{
+  color: #ffcc42;
+  text-align: right;
+  padding-right: 2.25rem;
+  box-sizing: border-box;
+}
+ .baokuandanye04 .danye04_sheng .pinzhiTitle>span{
+  background: #ffcc42;
+}
+ .baokuandanye04 .danye04_sheng .sheng_Img{
+  width: 37.5rem;
+  height: 20.0rem;
+  background: url(../images/ApplePage/danye04_shengqian.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.baokuandanye04 .sheng_ULtext{
+  width: 100%;
+  height: 20.0rem;
+}
+.baokuandanye04 .sheng_ULtext li{
+  color: #a98b64;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  position: absolute;
+}
+.baokuandanye04 .sheng_ULtext li:nth-child(1){
+    top: 14.75rem;
+    left: 2.4rem;
+    color: #ffcc42;
+}
+.baokuandanye04 .sheng_ULtext li:nth-child(2){
+    top: 7.0rem;
+    left: 5.5rem;
+}
+.baokuandanye04 .sheng_ULtext li:nth-child(3){
+    top: 2.25rem;
+    left: 12.0rem;
+}
+.baokuandanye04 .sheng_ULtext li:nth-child(4){
+    top: 2.25rem;
+    left: 21.0rem;
+}
+.baokuandanye04 .sheng_ULtext li:nth-child(5){
+    top: 7.0rem;
+    left: 28.0rem;
+}
+.baokuandanye04 .sheng_ULtext li:nth-child(6){
+    top: 14.75rem;
+    left: 30.25rem;
+    color: #ffcc42;
+}
+.baokuandanye04 .sheng_Img h2{
+    font-size: 7.0rem;
+    color: #ffcc42;
+    position: absolute;
+    top: 5.75rem;
+    left: 15.25rem;
+}
+.baokuandanye04 .sheng_Img p{
+    font-size: 1.2rem;
+    color: #ffcc42;
+    position: absolute;
+    top: 16.5rem;
+    left: 8.0rem;
+}
+.baokuandanye04 .sheng_goodsOther{
+    display: flex;
+    justify-content: center;
+}
+.baokuandanye04 .sheng_goodsOther>img:nth-child(1){
+  margin-right: 20px;
+}
+.baokuandanye04 .sheng_goodsOther>img{
+    width: 17.0rem;
+    height: 17.0rem;
+}
+/* -----详情介绍----- */
+.baokuandanye04 .colorYellow{
+  color: #FFFF00;
+}
+.baokuandanye04 .singleDetails{
+  width: 100%;
+  position: relative;
+  margin-top: 1.5rem;
+}
+.baokuandanye04 .singleDetails_title{
+  width: 100%;
+  height: 3.0rem;
+  line-height: 3.0rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: normal;
+}
+.baokuandanye04 .singleDetails_content{
+  width: 35.0rem;
+  margin: auto;
+  margin-top: 1.0rem;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  background: #fff;
+  padding: 0.5rem;
+  line-height: 2rem;
+  text-align: left;
+  font-size: 1.2rem
+}
+.baokuandanye04 .singleDetails_content>p{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+}
+/* ----尾部--- */
+.baokuandanye04 .water_footer {
+    width: 100%;
+    background: #f2f2f4;
+    margin-bottom: 4.4rem;
+}
+.baokuandanye04 .footer_head{
+    overflow: hidden;
+    height: 7.2rem;
+    border-bottom: 0.1rem solid #f8f8f8;
+}
+.baokuandanye04 .footer_head dl{
+    width: 30rem;
+    float: left;
+    padding-top: 1.5rem;
+}
+.baokuandanye04 .footer_head dt img{
+    width: 100%;
+    height: 100%;
+}
+.baokuandanye04 .footer_head>img{
+    width: 3.25rem;
+    height: 3.8rem;
+    float: right;
+    margin-top: 1.0rem;
+}
+.baokuandanye04 .footer_head dt{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-right: 0.5rem;
+    float: left;
+}
+.baokuandanye04 .footer_head dd{
+    text-align: left;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+.baokuandanye04 .footer_use{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 111;
+}
+.baokuandanye04 .footer_use a{
+    text-decoration: none;
+}
+.baokuandanye04 .footer_use li{
+    width: 33.33%;
+    height: 4.4rem;
+    box-sizing: border-box;
+    line-height: 4.4rem;
+    text-align: center;
+    float: left;
+}
+.baokuandanye04 .footer_use li:nth-child(1){
+    background: #fff;
+}
+.baokuandanye04 .footer_use li:nth-child(2){
+    background: #ff5500;
+}
+.baokuandanye04 .footer_use li:nth-child(3){
+    background: #ff6600;
+}
+.baokuandanye04 .footer_use li:nth-child(1) span{
+    color: #ff6600!important;
+}
+.baokuandanye04 .footer_use li img{
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    width: 2.0rem;
+}
+.baokuandanye04 .footer_use li span{
+    font-size: 1.7rem;
+    color: #fff;
+}
+.baokuandanye04 .letter2{
+    letter-spacing: 1rem;
+}
+.baokuandanye04 .letter3{
+    letter-spacing: 0.4rem;
+}
+.baokuandanye04 .paddingLR{
+    padding: 0.0rem 2.0rem ;
+    box-sizing: border-box;
+}
+.baokuandanye04 input{
+      background: none;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+/* --- 分享遮罩层 --- */
+.shareWrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.shareWrap img{
+    width: 100%;
+    height: 100%;
+}

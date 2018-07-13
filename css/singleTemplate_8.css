@@ -1,0 +1,349 @@
+/* 代码初始化开始 */
+body { color: #3c3c3c;font-family: "Microsoft Yahei",'Hiragino Sans GB'; }
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+.paddingLR20{padding: 0 1.85rem; box-sizing: border-box;}
+.fl {
+  float: left;
+  display: inline;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.clear {
+  height: 0px;
+  line-height: 0px;
+  clear: both;
+}
+.textC {
+  text-align: center
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+.singlePage8_SPTY input{
+  outline: none;
+  background: inherit;
+  border: none;
+}
+/* 初始化样式结束 */
+/* ------------banner--------- */
+.singlePage8_SPTY{
+  width: 100%;
+  background: url(../images/ApplePage/shipin07_bgImg_02.jpg);
+}
+.singlePage8_SPTY .WkLogo{
+    position: absolute;
+    top: 1.0rem;
+    left: 1.0rem;
+    z-index: 100;
+    width: 11.45rem!important;
+    height: 2.1rem;
+}
+.singlePage8_SPTY .singleTopMain{
+  width: 100%;
+  height: 47rem;
+}
+.singlePage8_SPTY .SPTY8_banner{
+  width: 100%;
+  height: 44.0rem;
+  background: url(../images/ApplePage/shipin07_bannerBG_01.jpg) no-repeat;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  padding-top: 3.5rem;
+}
+.singlePage8_SPTY .SPTY8_banner>p{
+  width: 100%;
+  font-weight: bolder;
+  padding: 0 1.25rem;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.singlePage8_SPTY .SPTY8_banner .Mtitle{
+  font-size: 2.6rem;
+  height: 3rem;
+  line-height: 3rem;
+  color: #000;
+}
+.singlePage8_SPTY .SPTY8_banner .gsName{
+  height: 3.0rem;
+  line-height: 3.0rem;
+  font-size: 2rem;
+  color: #000;
+}
+.singlePage8_SPTY .SPTY8_goods{
+  width: 26.25rem;
+  height: 26.25rem;
+  border: 0.25rem solid #7b4815;
+  border-radius: 50%;
+  position: absolute;
+  top: 13.6rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.singlePage8_SPTY .SPTY8_goods>img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.singlePage8_SPTY  .SPTY8_price{
+  width: 18.5rem;
+  height: 16.0rem;
+  background: url(../images/ApplePage/shipin07_priceBG.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 27.5rem;
+  right: 1.0rem;
+  color: #E30A0A;
+  line-height: 2.1rem;
+}
+.singlePage8_SPTY  .marketPrice{
+  font-size: 1.2rem;
+  margin-left: 1.0rem;
+  position: absolute;
+  top: 10.5rem;
+  left: 5.5rem;
+  color: #000;
+  display: flex;
+}
+.singlePage8_SPTY  .marketPrice>span:nth-child(2){
+  font-size: 1.6rem;
+  text-decoration: line-through;
+}
+.singlePage8_SPTY  .promotionPrice{
+  font-weight: bold;
+  margin-left: 2.0rem;
+  position: absolute;
+  top: 7.0rem;
+  left: 1rem;
+  display: flex;
+}
+.singlePage8_SPTY  .promotionPrice>span:nth-child(1){
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+.singlePage8_SPTY  .promotionPrice>span:nth-child(2){
+  font-size: 2.6rem;
+}
+/* 基本信息 */
+.singlePage8_SPTY .singleInfo{
+ width: 100%;
+ position: relative;
+ margin-top: 1.5rem;
+}
+.singlePage8_SPTY .singleInfo .singleInfo_title{
+  width: 100%;
+  height: 3.0rem;
+  line-height: 3.0rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: normal;
+}
+.singlePage8_SPTY .singleInfo .singleInfo_slogan{
+  width: 18.0rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #000;
+  background: #ffe800;
+  position: absolute;
+  top: 3.7rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.singlePage8_SPTY .singleInfo .singleInfo_content{
+  width: 35.0rem;
+  padding: 1.5rem 1.0rem 0.5rem 1.0rem;
+  border: 0.1rem solid #cc0000;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 2.0rem;
+  background: #ffe800;
+}
+.singlePage8_SPTY .singleInfo_content>ul{
+  width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.singlePage8_SPTY .singleInfo_content>ul li{
+  font-size: 1.2rem;
+  line-height: 2.25rem;
+  height: 2.25rem;
+  border-bottom: 0.05rem dashed #cc0000;
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  width: 47%;
+}
+.singlePage8_SPTY .singleInfo_content>ul .last_li{
+  border-bottom:none;
+}
+.singlePage8_SPTY .singleInfo_content>ul input{
+  width: 7.0rem;
+  font-size: 1.2rem;
+}
+.singlePage8_SPTY .colorYellow{
+  color: #cc0000;
+}
+.singlePage8_SPTY .singleDetails{
+  width: 100%;
+  position: relative;
+  margin-top: 1.5rem;
+}
+.singlePage8_SPTY .singleDetails_title{
+  width: 100%;
+  height: 3.0rem;
+  line-height: 3.0rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: normal;
+}
+.singlePage8_SPTY .singleDetails_content{
+  width: 35.0rem;
+  margin: auto;
+  margin-top: 1.0rem;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  overflow: hidden;
+  background: #F7DE07;
+  line-height: 2rem;
+  text-align: left;
+  font-size: 1.2rem
+}
+.singlePage8_SPTY .singleDetails_content>p{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+}
+.singlePage8_SPTY .letter5{
+  width: 9rem;
+  text-align: justify;
+  text-align-last: justify;
+  overflow: hidden;
+    text-justify: distribute-all-lines;
+    -moz-text-align-last: justify;
+    -webkit-text-align-last: justify;
+}
+/* ----尾部--- */
+.singlePage8_SPTY .water_footer {
+    width: 100%;
+    background: #f2f2f4;
+    margin-bottom: 4.4rem;
+}
+.singlePage8_SPTY .footer_head{
+    overflow: hidden;
+    height: 7.2rem;
+    border-bottom: 0.1rem solid #f8f8f8;
+}
+.singlePage8_SPTY .footer_head dl{
+    width: 30rem;
+    float: left;
+    padding-top: 1.5rem;
+}
+.singlePage8_SPTY .footer_head dt img{
+    width: 100%;
+    height: 100%;
+}
+.singlePage8_SPTY .footer_head>img{
+    width: 3.25rem;
+    height: 3.8rem;
+    float: right;
+    margin-top: 1.0rem;
+}
+.singlePage8_SPTY .footer_head dt{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-right: 0.5rem;
+    float: left;
+}
+.singlePage8_SPTY .footer_head dd{
+    text-align: left;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+.singlePage8_SPTY .footer_use{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 111;
+}
+.singlePage8_SPTY .footer_use a{
+    text-decoration: none;
+}
+.singlePage8_SPTY .footer_use li{
+    width: 33.33%;
+    height: 4.4rem;
+    box-sizing: border-box;
+    line-height: 4.4rem;
+    text-align: center;
+    float: left;
+}
+.singlePage8_SPTY .footer_use li:nth-child(1){
+    background: #fff;
+}
+.singlePage8_SPTY .footer_use li:nth-child(2){
+    background: #ff5500;
+}
+.singlePage8_SPTY .footer_use li:nth-child(3){
+    background: #ff6600;
+}
+.singlePage8_SPTY .footer_use li:nth-child(1) span{
+    color: #ff6600!important;
+}
+.singlePage8_SPTY .footer_use li img{
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    width: 2.0rem;
+}
+.singlePage8_SPTY .footer_use li span{
+    font-size: 1.7rem;
+    color: #fff;
+}
+.singlePage8_SPTY .letter2{
+    letter-spacing: 1rem;
+}
+.singlePage8_SPTY .letter3{
+    letter-spacing: 0.4rem;
+}
+.singlePage8_SPTY .paddingLR{
+    padding: 0.0rem 2.0rem ;
+    box-sizing: border-box;
+}
+/* --- 分享遮罩层 --- */
+.shareWrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0;
+    bottom:0;
+    z-index: 999;
+}
+.shareWrap img {
+    width: 100%;
+    height: 100%;
+}

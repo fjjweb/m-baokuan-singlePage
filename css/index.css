@@ -1,0 +1,559 @@
+/*---------------------- wangjing 2018.12-27  duhong 1.18----------------------*/
+@charset "utf-8";
+body { color: #3c3c3c;font-family: "Microsoft Yahei",'Hiragino Sans GB'; }
+html, body { _margin: 0; _height: 100%;/*IE6 BUG*/ max-width:1000px; font-size: 16px; overflow-x: hidden; margin: auto; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, 
+textarea, p, blockquote, table, th, td, iframe ,span ,strong ,i ,em{ margin: 0; padding: 0; font-family: "Microsoft Yahei","Arial","Hiragino Sans GB"}
+ul, ol, li, dl, dt, dd { list-style-type: none }
+img, object { border: 0; vertical-align: middle; }
+img, input { border: medium none; }
+table { border-collapse: collapse; }
+input { vertical-align: middle; }
+i, em { font-style: normal; }
+a {utline: none; cursor: pointer; color:#666; text-decoration: none; }
+.fl { float: left; display: inline; }
+.fr { float: right; display: inline; }
+.clear { height: 0px; line-height: 0px; clear: both; }
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+*+html .clearfix { overflow: hidden; }
+* html .clearfix { height: 1%; }
+.textC { text-align: center; }
+/*---------------------- 主会场加分会场背景 ----------------------*/
+.paddingLR{
+    padding: 0px 50px;
+    box-sizing: border-box;
+}
+/* ------------------banner ----------------------*/
+.desc{
+	padding-top: 1.3rem;
+}
+.water_banner{
+    width: 100%;
+    height: 855px;
+    background: url(../images/bannerBG.jpg) no-repeat center top;
+    background-size: 100% 100%;
+    position: relative;
+}
+.bn_top>p:nth-child(1){
+	padding-top: 1.3rem;
+}
+.bn_top>p:nth-child(2){
+	padding-top: 0.9rem;
+}
+.bn_top .bn_title{
+    width: 100%;
+    height: 115px;
+    overflow: hidden;
+    font-size: 2.2222rem;
+    color: #fff;
+    font-weight: bolder;
+}
+.bn_top .bn_futitle{
+    width: 100%;
+    color: #7ab0d1;
+    font-size: 1.3333rem;
+    font-weight: bolder;
+}
+.bn_qipao{
+	width: 100%;
+    height: 520px;
+    position: relative;
+    top: 30px;
+}
+.bn_qipao>p{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	z-index: 200;
+}
+.bn_qipao input[type="text"]{
+	width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    font-size: 1rem;
+    color: #9cfaff;
+}
+.bn_qipao>p:nth-child(1){
+    left: 100px;
+    top: 0;
+}
+.bn_qipao>p:nth-child(2){
+        left: 550px;
+    top: 30px;
+}
+.bn_qipao>p:nth-child(3){
+	width: 90px;
+	height: 90px;
+        left: 0;
+    top: 130px;
+}
+.bn_qipao>p:nth-child(4){
+	width: 90px;
+	height: 90px;
+        left: 640px;
+    top: 140px;
+}
+.bn_goodsImg{
+	width: 540px;
+    height: 540px;
+    border-radius: 50%;
+    position: absolute;
+    top: 270px;
+    left: 140px;
+    z-index: 100;
+}
+.bn_goodsImg>img{
+	width: 98%;
+	height: 98%;
+	border-radius: 100%;
+}
+.bn_price{
+	width: 500px;
+    height: 160px;
+    position: absolute;
+    top: 585px;
+    left: 450px;
+    color: #fff;
+    z-index: 300;
+}
+.bn_price>img{
+	width: 100%;
+}
+.bn_price_text{
+	position: absolute;
+    width: 577px;
+    height: 160px;
+    top: 10px;
+    left: 0px
+}
+.bn_price_text>p{
+	width: 90px;
+    font-size: 1.4rem;
+    line-height: 50px;
+    margin-left: 70px;
+    float: left;
+}
+.BKPriceText_info,.BKPriceText_go{
+    float: left;
+}
+.BKPriceText_info{
+    /*width: 280px;*/
+    height: 110px;
+    box-sizing: border-box;
+    padding: 10px 0px 0px 24px;
+}
+.BKPriceText_info>.xianjia{
+    color: #f2f2f4;
+    font-size: 0.8rem;
+    height: 60px;
+    line-height: 46px;
+}
+.BKPriceText_info>.xianjia>span{
+	vertical-align: baseline;
+}
+.xianjia>.XJMoney{
+    width: 59px;
+    font-size: 1.8rem;
+    background: transparent;
+    border: none;
+    color: #f2f2f4;
+}
+.BKPriceText_info>.yuanjia{
+    font-size: 0.8rem;
+    color: #f2f2f4;
+    text-decoration: line-through;
+}
+/*------------------产品的标题公用样式-------------------*/
+.water_title>input{
+	display: block;
+	font-size: 1.8rem;
+    width: 100%;
+}
+.water_title .wt_Mtitle{
+	color: #0462c6;
+}
+.water_title .wt_Ftitle{
+	font-size: 0.8rem;
+    width: 100%;
+    color: #b2b2b2;
+}
+.inpBlock{
+	width: 100%;
+	display: block;
+}
+.P_textarea{
+	width: 90%;
+    background-color: transparent;
+    border: none;
+    box-sizing: border-box;
+    resize: none;
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+    margin: auto;
+}
+/*----------产品属性-----------*/
+.water_info{
+	width: 100%;
+    height: 660px;
+    background: #fff;
+}
+.water_info>.water_title{
+	padding-top: 10px;
+}
+.info_content{
+	padding-top: 20px;
+	overflow: hidden;
+}
+.info_content .info_img{
+	width: 360px;
+    height: 360px;
+    margin-left: 50px;
+}
+.info_content .info_img img{
+	width: 360px;
+	height: 360px;
+}
+.info_content .info_text{
+    margin-left: 20px;
+    float: right;
+}
+.info_content .info_text li{
+	width: 440px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px dashed #e1e1e1;
+}
+.info_text li>span{
+	float: left;
+    color: #333;
+    font-size: 1rem;
+}
+.info_text li>input[type="text"]{
+	float: left;
+    width: 275px;
+    height: 60px;
+    color: #000;
+    font-size: 1rem;
+}
+.line100{
+	display: block;
+    width: 100px;
+    height: 2px;
+    background: #0462c6;
+    margin: auto;
+    margin-top: 10px;
+}
+.letter2{
+	letter-spacing: 6px;
+}
+.letter3{
+	letter-spacing: 1px;	
+}
+/*------------产品介绍------------*/
+.water_introduce{
+	width: 100%;
+	box-sizing: border-box;
+}
+.water_introduce .water_title{
+	padding-top: 50px;
+}
+.water_introduce>.introduce01{
+	height: 950px;
+	background: #fafafa;
+}
+.water_introduce>.introduce02{
+	height: 1350px;
+}
+.water_introduce>.introduce03{
+	height: 725px;
+	background: #fafafa;
+}
+.introduce_Ftitle{
+	padding-top: 40px;
+	margin-bottom: 20px;
+}
+.introduce_Ftitle>input:nth-child(1){
+	font-size: 1.4rem;
+    color: #1573dc;
+    margin-bottom: 20px;
+}
+.introduce_Ftitle>.Ftitle_02{
+	font-size: 1rem;
+    color: #666;
+    text-align: center;
+    line-height: 40px;
+}
+.introduce01Img{
+	height: 580px;
+	background: url(../images/jieshao_ditu.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.introduce02Img{
+	height: 1040px;
+	background: url(../images/jieshao_chengfen.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.introduce03Img{
+	height: 550px;
+	background: url(../images/jieshao_jiankang.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.introduce02>.introduce_Ftitle{
+	padding-top: 60px;
+	height: 250px;
+}
+.introduce02>.introduce_Ftitle>.P_textarea{
+    font-size: 1rem;
+    color: #666;
+    line-height: 40px;
+}
+.introduce03>.introduce_Ftitle>.P_textarea{
+	font-size: 1rem;
+    color: #666;
+    line-height: 40px;
+}
+.introduce03Img>.goods03{
+	width: 100%;
+	height: 500px;	
+	text-align: center;
+	position: relative;
+}
+.introduce03Img .goods03>img{
+	width: 300px;
+	height: 500px;
+}
+.goods03Info_L{
+	position: absolute;
+	top: 104px;
+	left: -20px;
+}
+.goods03Info_R{
+	position: absolute;
+    top: 104px;
+    right: -30px;
+}
+.goods03Info_L p{
+	width: 200px;
+	font-size: 0.8rem;
+	height: 50px;
+	text-align: right!important;
+}
+.goods03Info_R p{
+	width: 200px;
+	font-size: 0.8rem;
+    height: 76px;
+    text-align: left!important;
+}
+/*-----------------产品功效------------------*/
+.bottomTitle{
+	width: 100%;
+	height: 155px;
+	background: url(../images/gongxiaoImg01.png) no-repeat;
+	background-size: 100%;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+.bottomTitle>.MianTitle{
+	width: 100%;
+	font-size: 1.8rem;
+	color: #fafafa;
+}
+.bottomTitle>.FTitle{
+	width: 100%;
+	color: #fafafa;
+	font-size: 0.8rem;
+}
+.water_efficacy>.efficacy01{
+	width: 100%;
+	height: 500px;
+	background: url(../images/gongxiaoBG01.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.efficacy01>.EF_content{
+	width: 430px;
+	position: absolute;
+	top: 60px;
+	left: 140px;
+}
+.water_efficacy .EF_content>.EF_contentTitle{
+	font-size: 1.6rem;
+	color: #1573dc;
+	text-align: left;
+	margin-bottom: 10px;
+}
+.EF_content>.EF_contentText{
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	font-size: 0.9rem;
+	color: #666;
+	line-height: 35px;
+}
+.water_efficacy>.efficacy02{
+	width: 100%;
+	height: 500px;
+	background: url(../images/gongxiaoBG02.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.efficacy02>.EF_content{
+	width: 430px;
+	position: absolute;
+	top: 60px;
+	left: 530px;
+}
+.water_efficacy>.efficacy03{
+	width: 100%;
+	height: 500px;
+	background: url(../images/gongxiaoBG03.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.efficacy03>.EF_content{
+	width: 430px;
+	position: absolute;
+	top: 60px;
+	left: 140px;
+}
+/*-----------品牌故事-------------*/
+.story_textBox{
+	padding-top: 20px;
+}
+.story_textBox>p{
+	width: 100%;
+	height: 300px;
+	font-size: 0.9rem;
+	color: #333;
+	line-height: 50px;
+	margin-bottom: 50px;
+}
+.story_imgBox{
+	width: 100%;
+	height: 600px;
+	text-align: center;
+	position: relative;
+}
+.story_imgBox>img{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+}
+/*-----------底部----------*/
+.water_footer {
+	width: 100%;
+	height: 180px;
+	margin-bottom: 100px;
+	background: #f2f2f4;
+	padding: 0 50px;
+	box-sizing: border-box;
+}
+.footer_head{
+	overflow: hidden;
+}
+.footer_head dl{
+	width: 500px;
+	float: left;
+	padding-top: 35px;
+}
+.footer_head>img{
+	width: 86px;
+	height: 100px;
+	float: right;
+	margin-top: 25px;
+}
+.footer_head dt{
+	margin-right: 15px;
+	float: left;
+}
+.footer_head dt img{
+	width: 120px;
+	height: 120px;
+}
+.footer_head dd{
+	padding: 10px 0;
+	font-size: 28px;
+}
+.outBox .footer_use{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.outBox .footer_use a{
+	text-decoration: none;
+    width: 100%;
+    height: 4.4rem;
+    display: block;
+}
+.outBox .footer_use li{
+	width: 33.33333%;
+	height: 100px;
+	box-sizing: border-box;
+	line-height: 100px;
+	text-align: center;
+	float: left;
+}
+.outBox .footer_use li:nth-child(1){
+	background: #fff;
+}
+.outBox .footer_use li:nth-child(2){
+	background: #ff5500;
+}
+.outBox .footer_use li:nth-child(3){
+	background: #ff6600;
+}
+.outBox .footer_use li:nth-child(1) span{
+	color: #ff6600!important;
+}
+.outBox .footer_use li img{
+	vertical-align: middle;
+	margin-right: 10px;
+	width: 50px;
+	margin-top: -12px;
+}
+.outBox .footer_use li span{
+	font-size: 40px;
+	color: #fff;
+}
+/* --- 分享遮罩层 --- */
+.shareWrap{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 0, .8);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 999;
+}
+.shareWrap img{
+	width: 100%;
+	height: 100%;
+}
+/* ---输入框重置样式--- */
+.outBox .redact{
+    background-color: transparent;
+    border: none;
+    box-sizing: border-box;
+    resize: none;
+    text-align: center;
+    margin: auto;
+}
+.wcltest{
+	color:#333;
+}
+/* ------------------兼容手机端----------------------*/
+.htmlfs { font-size:170%;}
+.htmlfs body {font-family: "PingFang SC","Heiti SC","SF UI Text","Helvetica Neue",Roboto,"Droid Sans Fallback",arial,sans-serif;font-weight: normal;overflow-y: hidden;}
+.J-mobile-b .mobile_top3{ margin-top: 3.7rem; }

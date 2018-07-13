@@ -1,0 +1,344 @@
+/* 代码初始化开始 */
+body { color: #3c3c3c;font-family: "Microsoft Yahei",'Hiragino Sans GB'; }
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+.paddingLR20{padding: 0 1.85rem; box-sizing: border-box;}
+.fl {
+  float: left;
+  display: inline;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.clear {
+  height: 0px;
+  line-height: 0px;
+  clear: both;
+}
+.textC {
+  text-align: center
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+.singlePage6_LDJ input{
+  outline: none;
+  background: inherit;
+  border: none;
+}
+/* 初始化样式结束 */
+/* ------------banner--------- */
+.singlePage6_LDJ{
+  width: 100%;
+  background: #cc3333;
+}
+.singlePage6_LDJ .WkLogo{
+    position: absolute;
+    top: 1.0rem;
+    left: 1.0rem;
+    z-index: 100;
+    width: 11.45rem!important;
+    height: 2.1rem;
+}
+.singlePage6_LDJ .LDJbanner{
+  width: 100%;
+  height: 45.0rem;
+}
+.singlePage6_LDJ .LDJbanner .topBannerImg{
+  width: 100%;
+  height: 18.75rem;
+  background: url(../images/ApplePage/LDJ06_bannerBG.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.singlePage6_LDJ .LDJbanner .topGoodsImg{
+  width: 30.0rem;
+  height: 26.5rem;
+  border: 0.4rem solid #990000;
+  box-sizing: border-box;
+  position: absolute;
+  top: 13.85rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.singlePage6_LDJ .LDJbanner .topGoodsImg>img{
+  width: 100%;
+  height: 100%;
+}
+.singlePage6_LDJ .LDJbanner .topLDJPice{
+  width: 22.5rem;
+  height: 15rem;
+  background: url(../images/ApplePage/LDJ06_goodsPriceBG.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 30.0rem;
+  left: 0.8rem;
+  z-index: 10;
+}
+.singlePage6_LDJ .topLDJPice h6{
+  font-size: 1.2rem;
+}
+.singlePage6_LDJ .topLDJPice .marketPrice{
+  overflow: hidden;
+  position: absolute;
+  top: 4.0rem;
+  left: 8.0rem;
+  line-height: 1.8rem;
+  color: #000;
+}
+.singlePage6_LDJ .topLDJPice .marketPrice>p{
+  font-size: 1.8rem;
+  text-decoration: line-through;
+  display: flex;
+}
+.singlePage6_LDJ .topLDJPice .promotionPrice{
+  overflow: hidden;
+  position: absolute;
+  top: 7.0rem;
+  left: 4.5rem;
+  line-height: 1.8rem;
+  color: #FF0000;
+}
+.singlePage6_LDJ .topLDJPice .promotionPrice>p{
+  font-size: 2.4rem;
+   display: flex;
+}
+.singlePage6_LDJ .LDJbanner .topLDJPice .fSize_24{
+  font-size: 1.2rem;
+}
+.singlePage6_LDJ .LDJTitle p{
+  color: #000;
+  font-weight: bolder;
+  width: 100%;
+  padding: 0 2.0rem;
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+}
+.singlePage6_LDJ .LDJTitle p:nth-child(1){
+  font-size: 2.6rem;
+  line-height: 3.0rem;
+  height: 3.0rem;
+}
+.singlePage6_LDJ .LDJTitle p:nth-child(2){
+  font-size: 2rem;
+  line-height: 3.0rem;
+  height: 3.0rem;
+}
+.singlePage6_LDJ .singleInfo{
+ width: 100%;
+ position: relative;
+ margin-top: 1.5rem;
+}
+.singlePage6_LDJ .singleInfo .singleInfo_title{
+  width: 100%;
+  height: 3.0rem;
+  line-height: 3.0rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: normal;
+}
+.singlePage6_LDJ .singleInfo .singleInfo_slogan{
+  width: 18.0rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #000;
+  background: rgb(204,51,51);
+  position: absolute;
+  top: 4.2rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.singlePage6_LDJ .singleInfo .singleInfo_content{
+    width: 35.0rem;
+    padding: 1.5rem 1.0rem 0.5rem 1.0rem;
+    border: 0.1rem solid #b82c2c;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+.singlePage6_LDJ .singleInfo_content>ul{
+  width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.singlePage6_LDJ .singleInfo_content>ul li{
+  font-size: 1.2rem;
+  line-height: 2.25rem;
+  height: 2.25rem;
+  border-bottom: 0.05rem dashed #ffff00;
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  width: 47%;
+}
+.singlePage6_LDJ .singleInfo_content>ul .last_li{
+  border-bottom:none;
+}
+.singlePage6_LDJ .singleInfo_content>ul input{
+  width: 7.0rem;
+  font-size: 1.2rem;
+}
+.singlePage6_LDJ .colorYellow{
+  color: #FFFF00;
+}
+.singlePage6_LDJ .singleDetails{
+  width: 100%;
+  position: relative;
+  margin-top: 1.5rem;
+}
+.singlePage6_LDJ .singleDetails_title{
+  width: 100%;
+  height: 3.0rem;
+  line-height: 3.0rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: normal;
+}
+.singlePage6_LDJ .singleDetails_content{
+  width: 35.0rem;
+  margin: auto;
+  margin-top: 1.0rem;
+  margin-bottom: 1.5rem;
+  background: #fff;
+  padding: 0.5rem;
+  overflow: hidden;
+  line-height: 2rem;
+  text-align: left;
+  font-size: 1.2rem
+}
+.singlePage6_LDJ .singleDetails_content>p{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+}
+.singlePage6_LDJ .letter5{
+  width: 9rem;
+  text-align: justify;
+  text-align-last: justify;
+  overflow: hidden;
+    text-justify: distribute-all-lines;
+    -moz-text-align-last: justify;
+    -webkit-text-align-last: justify;
+}
+/* ----尾部--- */
+.singlePage6_LDJ .water_footer {
+    width: 100%;
+    background: #f2f2f4;
+    margin-bottom: 4.4rem;
+}
+.singlePage6_LDJ .footer_head{
+    overflow: hidden;
+    height: 7.2rem;
+    border-bottom: 0.1rem solid #f8f8f8;
+}
+.singlePage6_LDJ .footer_head dl{
+    width: 30rem;
+    float: left;
+    padding-top: 1.5rem;
+}
+.singlePage6_LDJ .footer_head dt img{
+    width: 100%;
+    height: 100%;
+}
+.singlePage6_LDJ .footer_head>img{
+    width: 3.25rem;
+    height: 3.8rem;
+    float: right;
+    margin-top: 1.0rem;
+}
+.singlePage6_LDJ .footer_head dt{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-right: 0.5rem;
+    float: left;
+}
+.singlePage6_LDJ .footer_head dd{
+    text-align: left;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+.singlePage6_LDJ .footer_use{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 111;
+}
+.singlePage6_LDJ .footer_use a{
+    text-decoration: none;
+}
+.singlePage6_LDJ .footer_use li{
+    width: 33.33%;
+    height: 4.4rem;
+    box-sizing: border-box;
+    line-height: 4.4rem;
+    text-align: center;
+    float: left;
+}
+.singlePage6_LDJ .footer_use li:nth-child(1){
+    background: #fff;
+}
+.singlePage6_LDJ .footer_use li:nth-child(2){
+    background: #ff5500;
+}
+.singlePage6_LDJ .footer_use li:nth-child(3){
+    background: #ff6600;
+}
+.singlePage6_LDJ .footer_use li:nth-child(1) span{
+    color: #ff6600!important;
+}
+.singlePage6_LDJ .footer_use li img{
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    width: 2.0rem;
+}
+.singlePage6_LDJ .footer_use li span{
+    font-size: 1.7rem;
+    color: #fff;
+}
+.singlePage6_LDJ .letter2{
+    letter-spacing: 1rem;
+}
+.singlePage6_LDJ .letter3{
+    letter-spacing: 0.4rem;
+}
+.singlePage6_LDJ .paddingLR{
+    padding: 0.0rem 2.0rem ;
+    box-sizing: border-box;
+}
+/* --- 分享遮罩层 --- */
+.shareWrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0;
+    bottom:0;
+    z-index: 999;
+}
+.shareWrap img {
+    width: 100%;
+    height: 100%;
+}

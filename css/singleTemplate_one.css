@@ -1,0 +1,428 @@
+/* 代码初始化开始 */
+body { color: #3c3c3c;font-family: "Microsoft Yahei",'Hiragino Sans GB'; }
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+.paddingLR20{padding: 0 1.85rem; box-sizing: border-box;}
+.fl {
+  float: left;
+  display: inline;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.clear {
+  height: 0px;
+  line-height: 0px;
+  clear: both;
+}
+.textC {
+  text-align: center
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+.onePage-wrap input{
+  outline: none;
+  background: inherit;
+  border: none;
+}
+/* 初始化样式结束 */
+/* ------------banner--------- */
+.onePage-wrap{
+  width: 100%;
+  height: auto;
+}
+.onePage-wrap .WkLogo{
+    position: absolute;
+    top: 1.0rem;
+    left: 1.0rem;
+    z-index: 100;
+    width: 11.45rem!important;
+    height: 2.1rem;
+  z-index: 9;
+}
+.onePage-wrap .singleTopMain{
+    width: 100%;
+    height: 52rem;
+}
+
+.onePage-wrap .singleban{
+  position: relative;
+  width:100%;
+  height:52rem;
+}
+.onePage-wrap .singleban img{
+  position: absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  z-index: 2;
+}
+.onePage-wrap .goods-name{
+  position: absolute;
+  top: 46rem;
+  left:0;
+  right:0;
+  margin:auto; 
+  z-index: 3;
+}
+.onePage-wrap .goods-name>p{
+  width: 100%;
+  font-weight: bolder;
+  padding: 0 1.25rem;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.onePage-wrap .goods-name .Mtitle{
+  font-size: 2.26rem;
+  height: 3.0rem;
+  line-height: 3.0rem;
+}
+
+
+.onePage-wrap .goods-name .gsName{
+  height: 3.0rem;
+  line-height:3.0rem;
+  font-size: 1.9rem;
+}
+.onePage-wrap .goods {
+  width: 32rem;
+  height: 32rem;
+  position: absolute;
+  top: 10rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1
+}
+.onePage-wrap .goods>img{
+  width: 100%;
+  height: 100%;
+}
+.onePage-wrap  .price-wrap{
+  width: 23.5rem;
+  height: 3.88rem;
+  background: url(../images/single_one/price-bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 38rem;
+  left: 6.95rem;
+  color: #E30A0A;
+  line-height: 2.1rem;
+  z-index: 3;
+}
+.onePage-wrap  .marketPrice{
+    font-size: 1rem;
+    margin-left: 1.0rem;
+    text-align: center;
+    color:#fff;
+}
+.onePage-wrap #goodsPrice{
+  text-decoration: line-through;
+}
+.onePage-wrap  .promotionPrice{
+  position: relative;
+  top:-.3rem;
+  font-weight: bold;
+  margin-left: 2.0rem;
+  font-size:1.1rem;
+  color:#fff;
+}
+.onePage-wrap  .promotionPrice>p{
+  text-align: center;
+  margin-top:-.3rem;
+}
+.onePage-wrap  .promotionPrice>p>span:nth-child(2){
+  font-size: 2rem;
+  font-weight: normal;
+}
+/* 基本信息 */
+.onePage-wrap .singleInfo{
+ width: 100%;
+ position: relative;
+ background-size: 100%;
+}
+.onePage-wrap .singleInfo .singleInfo_slogan{
+    width:15rem;
+    position: absolute;
+    top: -1rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background:url(../images/single_one/bg15.jpg) repeat-y;    
+}
+.onePage-wrap  .singleInfo_slogan span{
+  display: inline-block;  
+  width: 12rem;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #fff;
+  background:#378921;
+  border-radius:10px;
+  margin-left:1.5rem;
+  
+}
+.onePage-wrap .singleInfo .singleInfo_content{
+  width: 35.0rem;
+  padding: 1.5rem 1.0rem 0.5rem 1.0rem;
+  border: 0.1rem solid #2a63de;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 2.0rem;
+}
+.onePage-wrap .singleInfo_content>ul{
+  width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top:1rem;
+}
+.onePage-wrap .singleInfo_content>ul li{
+  font-size: 1.2rem;
+  line-height: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  width: 47%;
+}
+.onePage-wrap .singleInfo_content>ul .last_li{
+  border-bottom:none;
+}
+.onePage-wrap .singleInfo_content>ul input{
+  width: 7.0rem;
+  font-size: 1.2rem;
+}
+.onePage-wrap .colorYellow{
+  color: #2a63de;
+}
+.onePage-wrap .singleDetails{
+  width: 100%;
+  position: relative;
+  margin-top: 2rem;
+}
+.onePage-wrap .singleDetails_title{
+    display: block;
+    width: 12.0rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #fff;
+    background: #378921;
+    border-radius: 10px;
+    margin:0 auto;
+    font-weight: normal;
+}
+.onePage-wrap .singleDetails_content{
+  width: 35.0rem;
+  margin: auto;
+  margin-top: 1.0rem;
+  margin-bottom: 1.5rem;
+/*  background: #CCE9ED;*/
+  padding: 0.5rem;
+  overflow: hidden;
+  line-height: 2rem;
+  text-align: left;
+  font-size: 1.2rem
+}
+.onePage-wrap .singleDetails_content>p{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+}
+.onePage-wrap .letter5{
+  width: 9rem;
+  text-align: justify;
+  text-align-last: justify;
+  overflow: hidden;
+  text-justify: distribute-all-lines;
+  -moz-text-align-last: justify;
+  -webkit-text-align-last: justify;
+}
+/* ----尾部--- */
+.onePage-wrap .water_footer {
+    width: 100%;
+    background: #f2f2f4;
+    margin: 0;
+    margin-bottom:4rem;
+}
+.onePage-wrap .footer_head{
+    overflow: hidden;
+    height: 7.2rem;
+    border-bottom: 0.1rem solid #f8f8f8;
+}
+.onePage-wrap .footer_head dl{
+    width: 30rem;
+    float: left;
+    padding-top: 1.5rem;
+}
+.onePage-wrap .footer_head dt img{
+    width: 100%;
+    height: 100%;
+}
+.onePage-wrap .footer_head>img{
+    width: 3.25rem;
+    height: 3.8rem;
+    float: right;
+    margin-top: 1.0rem;
+}
+.onePage-wrap .footer_head dt{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-right: 0.5rem;
+    float: left;
+}
+.onePage-wrap .footer_head dd{
+    text-align: left;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+.onePage-wrap .footer_use{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 111;
+}
+.onePage-wrap .footer_use a{
+    text-decoration: none;
+}
+.onePage-wrap .footer_use li{
+    width: 33.33%;
+    height: 4.4rem;
+    box-sizing: border-box;
+    line-height: 4.4rem;
+    text-align: center;
+    float: left;
+}
+.onePage-wrap .footer_use li:nth-child(1){
+    background: #fff;
+}
+.onePage-wrap .footer_use li:nth-child(2){
+    background: #ff5500;
+}
+.onePage-wrap .footer_use li:nth-child(3){
+    background: #ff6600;
+}
+.onePage-wrap .footer_use li:nth-child(1) span{
+    color: #ff6600!important;
+}
+.onePage-wrap .footer_use li img{
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    width: 2.0rem;
+}
+.onePage-wrap .footer_use li span{
+    font-size: 1.7rem;
+    color: #fff;
+}
+.onePage-wrap .letter2{
+    letter-spacing: 1rem;
+}
+.onePage-wrap .letter3{
+    letter-spacing: 0.4rem;
+}
+.onePage-wrap .paddingLR{
+    padding: 0.0rem 2.0rem ;
+    box-sizing: border-box;
+}
+/* --- 分享遮罩层 --- */
+.shareWrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0;
+    bottom:0;
+    z-index: 999;
+}
+.shareWrap img {
+    width: 100%;
+    height: 100%;
+}
+/* 模板一更换的背景 */
+.onePage-wrap section.info{
+    overflow: hidden;
+    background:url(../images/single_one/bg13.jpg) repeat-y;
+    background-size:100%;
+} 
+.onePage-wrap.bg_13 section.info{
+    overflow: hidden;
+    background:url(../images/single_one/bg13.jpg) repeat-y;
+    background-size:100%;
+} 
+.onePage-wrap.bg_14 section.info{
+    overflow: hidden;
+    background:url(../images/single_one/bg14.jpg) repeat-y;
+    background-size:100%;
+}
+.onePage-wrap.bg_15 section.info{
+    overflow: hidden;
+    background:url(../images/single_one/bg15.jpg) repeat-y;
+    background-size:100%;
+}
+.onePage-wrap.bg_13 .singleInfo .singleInfo_slogan{
+    background:url(../images/single_one/bg13.jpg) repeat-y;       
+    background-size: 100%; 
+}
+.onePage-wrap.bg_14 .singleInfo .singleInfo_slogan{
+    background:url(../images/single_one/bg14.jpg) repeat-y;       
+    background-size: 100%; 
+}
+.onePage-wrap.bg_15 .singleInfo .singleInfo_slogan{
+    background:url(../images/single_one/bg15.jpg) repeat-y;       
+    background-size: 100%; 
+}
+.onePage-wrap.bg_13 .singleInfo .singleInfo_content{
+  border:.1rem solid #378921;
+}
+.onePage-wrap.bg_14 .singleInfo .singleInfo_content{
+  border:.1rem solid #D1B59D;
+}
+.onePage-wrap.bg_15 .singleInfo .singleInfo_content{
+  border:.1rem solid #008669;
+}
+.onePage-wrap.bg_13 .singleInfo .singleInfo_slogan span,.onePage-wrap.bg_13 .singleDetails_title{
+  background: #378921;
+}
+.onePage-wrap.bg_14 .singleInfo .singleInfo_slogan span,.onePage-wrap.bg_14 .singleDetails_title{
+  background: #944301;
+}
+.onePage-wrap.bg_15 .singleInfo .singleInfo_slogan span,.onePage-wrap.bg_15 .singleDetails_title{
+  background: #008669;
+}
+div.onePage-wrap .colorYellow{
+  color:#333;
+}
+.onePage-wrap.bg_13 .goods-name{
+  color:#378921;
+}
+.onePage-wrap.bg_14 .goods-name{
+  color:#944301;
+}
+.onePage-wrap.bg_15 .goods-name{
+  color:#008669;
+}

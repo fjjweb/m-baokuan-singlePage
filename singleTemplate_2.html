@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"   content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title></title>
+    <!--测试环境-->
+    <!--  <link rel="stylesheet" type="text/css" href="css/applePage01.css" /> -->
+    <!--<link rel="stylesheet" type="text/css" href="http://centertest.99114.cn/baokuan/css/applePage01.css" />-->
+    <!--<link rel="stylesheet" type="text/css" href="css/applePage01.css" />-->
+    <!--<script type="text/javascript" src="http://centertest.99114.cn/baokuan/js/jquery-1.8.0.min.js" ></script>-->
+    <!--正式环境-->
+    <link rel="stylesheet" type="text/css" href="http://baokuan.99114.com/css/applePage01.css"/>
+    <script type="text/javascript" src="http://baokuan.99114.com/js/jquery-1.8.0.min.js"></script>
+</head>
+<body>
+<div class="aplle_D01">
+    <div class="D1_banner">
+        <img src="images/ApplePage/appleD2_titleBG.jpg">
+        <div class="bn_content">
+            <img src="images/ApplePage/appleD2_logo.png">
+            <p id="goodsName"></p>
+            <p>脆甜多汁 鲜嫩爽口</p>
+            <div class="bn_goodsImg">
+                <img src="images/ApplePage/appleD2_goodsImg01.png">
+            </div>
+            <div class="bn_price">
+                <p>网库价</p>
+                <p>￥<span id="promotionPrice">80</span>
+                    <!--<i class="goodsUnit"></i>-->
+                </p>
+                <p>市场价格:￥<span id="goodsPrice">100.00</span>
+                    <!--<i class="goodsUnit"></i>-->
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="APD1_worry">
+        <div class="worry_top">
+            <p>关于<span>吃</span>，你<span>最担心</span>的是什么<span>?</span></p>
+            <img src="images/ApplePage/appleD2_chengfen.png">
+            <p>纯天然种植，不使用任何激素，坚决杜绝农药，不使用添加剂</p>
+        </div>
+        <img src="images/ApplePage/appleD2_chengfenBIG.jpg">
+    </div>
+    <div class="APD1_essentialInfo">
+        <div class="info_title paddingLR">
+            <p>【基本信息】 </p>
+            <p>精挑细选 品质保证 给您至尊享受</p>
+        </div>
+        <div class="info_content paddingLR">
+            <img id="secondGoodsImgUrl" src="images/ApplePage/appleD2_goodsInfo01.jpg">
+            <ul>
+                <li>
+                    <span class="letter5">【品种】</span>
+                    <input id="goodsAttr_01" readonly="readonly" type="text" value=""/>
+                </li>
+                <li>
+                    <span class="letter5">【果径】</span>
+                    <input id="goodsAttr_02" readonly="readonly" type="text" value=""/>
+                </li>
+                <li>
+                    <span class="letter5">【等级】</span>
+                    <input id="goodsAttr_03" readonly="readonly" type="text" value=""/>
+                </li>
+                <li>
+                    <span class="letter5">【口感】</span>
+                    <input id="goodsAttr_04" readonly="readonly" type="text" value=""/>
+                </li>
+                <li>
+                    <span>【成熟度】</span>
+                    <input id="goodsAttr_05" readonly="readonly" type="text" value=""/>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="APD1_effect">
+        <div class="effect_title paddingLR font_title">
+            <h3>【营养功效】</h3>
+            <p>精挑细选 品质保证 给您至尊享受</p>
+        </div>
+        <div class="effect_content paddingLR">
+            <p>小小苹果  给你大大惊喜</p>
+            <p>
+                据测定,每百克苹果含果酱6.5~11.2g,葡萄糖2.5~3.5g;还含有微量元素锌、钙、磷、铁、钾及维生素B1、维生素B2、维生素C和胡萝卜素等
+            </p>
+            <img src="images/ApplePage/appleD2_yingyang.jpg">
+        </div>
+    </div>
+    <div class="APD1_PhotosView">
+        <div class="PhotosView_title paddingLR font_title">
+            <h3>【产品实拍】</h3>
+            <p>精挑细选 品质保证 给您至尊享受</p>
+        </div>
+        <div class="PhotosView_content shuye">
+            <div class="PhotosView_content_top">
+                <dl>
+                    <dt>01</dt>
+                    <dd>
+                        <p>果园新鲜采摘</p>
+                        <p>FRESHLY PICKE</p>
+                    </dd>
+                </dl>
+                <p>不打蜡，香味浓郁，唇齿留香、果肉硬度大，纤维少，质地细</p>
+            </div>
+            <img src="images/ApplePage/appleD2_shipai01.jpg">
+        </div>
+        <div class="PhotosView_content">
+            <div class="PhotosView_content_top">
+                <dl>
+                    <dt>02</dt>
+                    <dd>
+                        <p>个大饱满色艳</p>
+                        <p>A BIG FULL BRIGHT</p>
+                    </dd>
+                </dl>
+                <p>个大饱满，果表红中带黄，光鲜诱人，果肉肥厚饱满，口感甘甜适中，回味无穷</p>
+            </div>
+            <img src="images/ApplePage/appleD2_shipai02.jpg">
+        </div>
+        <div class="PhotosView_content">
+            <div class="PhotosView_content_top">
+                <dl>
+                    <dt>03</dt>
+                    <dd>
+                        <p>肉厚脆甜多汁</p>
+                        <p>CRISP JUICY SWEET</p>
+                    </dd>
+                </dl>
+                <p>口感清脆，适度极高，非一般苹果可以比拟，品尝一口就是一种享受</p>
+            </div>
+            <img src="images/ApplePage/appleD2_shipai03.jpg">
+        </div>
+    </div>
+    <div class="APD1_ToUsers">
+        <div class="PhotosView_title paddingLR font_title">
+            <h3>【适合全家的美味】</h3>
+            <p>美味享受 开心分享</p>
+        </div>
+        <div class="users_content01">
+            <div class="users_top shuye">
+                <p>THE AGES OF EDIBLE</p>
+                <p>老少皆宜 食用</p>
+                <p>
+                    苹果中含有磷和铁等元素，易被肠壁吸收，有补脑养血、宁神安眠作用，老中少都受益
+                </p>
+            </div>
+            <ul>
+                <li><img src="images/ApplePage/appleD2_laoren.png"></li>
+                <li><img src="images/ApplePage/appleD2_shaonian.png"></li>
+                <li><img src="images/ApplePage/appleD2_ertong.png"></li>
+            </ul>
+        </div>
+        <div class="users_content02">
+            <div class="users_top">
+                <p>MUI TIPLE EDIBLE METHOD</p>
+                <p>多种食用方法</p>
+            </div>
+            <ul>
+                <li>
+                    <img src="images/ApplePage/appleD2_fangfa01.jpg">
+                    <p>灯影苹果脆</p>
+                </li>
+                <li>
+                    <img src="images/ApplePage/appleD2_fangfa02.jpg">
+                    <p>苹果玫瑰蛋糕</p>
+                </li>
+                <li>
+                    <img src="images/ApplePage/appleD2_fangfa03.jpg">
+                    <p>苹果脯</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="images/ApplePage/appleD2_fangfa04.jpg">
+                    <p>苹果玉米羹</p>
+                </li>
+                <li>
+                    <img src="images/ApplePage/appleD2_fangfa05.jpg">
+                    <p>奶香苹果饼</p>
+                </li>
+                <li>
+                    <img src="images/ApplePage/appleD2_fangfa06.jpg">
+                    <p>苹果蛋糕</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+     <!--底部-->
+    <div class="water_footer paddingLR">
+        <div class="footer_head">
+            <dl>
+                <dt>
+                    <img id="shopImgUrl" src="images/ApplePage/tea1_touxiang_100.jpg"  alt="" />
+                </dt>
+                <dd id="corporationName"></dd>
+                <dd>
+                    <img id="credit" src="images/ApplePage/sf_icon.png">
+                    <img id="factory" src="images/ApplePage/bcp_icon.png">
+                    <img id="bcp" src="images/ApplePage/cj_icon.png">
+                </dd>
+            </dl>
+            <img class="memberLevel" style="display: none" src="http://centertest.99114.cn/baokuan/images/b_free.png">
+            <img class="memberLevel" style="display: none" src="http://centertest.99114.cn/baokuan/images/b_free.png">
+            <img class="memberLevel" style="display: none" src="http://centertest.99114.cn/baokuan/images/b_dpt.png">
+            <img class="memberLevel" style="display: none" src="http://centertest.99114.cn/baokuan/images/b_jp.png">
+            <img class="memberLevel" style="display: none" src="http://centertest.99114.cn/baokuan/images/b_bw.png">
+            <img class="memberLevel" style="display: none" src="http://centertest.99114.cn/baokuan/images/b_dpt.png">
+        </div>
+    </div>
+    <div class="footer_use">
+        <ul>
+            <li>
+                <a href="javascript:" id="tel"><img src="images/ApplePage/footerIcon001.png" alt=""><span>联系商家</span></a>
+            </li>
+            <li>
+                <a href="javascript:" id="buyNow"><img src="images/ApplePage/footerIcon002.png" alt=""><span>立即购买</span></a>
+            </li>
+            <li>
+                <a href="javascript:" id="share"><img src="images/ApplePage/footerIcon003.png" alt=""><span>我要分享</span></a>
+            </li>
+        </ul>
+    </div>
+    <!-- 分享遮罩层 -->
+    <div id="shareWrap" class="shareWrap" style="display: none">
+        <img src="http://centertest.99114.cn/baokuan/images/tips.png" alt="">
+    </div>
+</div>
+</body>
+
+<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<!--测试环境-->
+<!--<script src="http://centertest.99114.cn/baokuan/js/index.js"></script>-->
+<!--<script type="text/javascript" src="http://centertest.99114.cn/baokuan/js/rem.js"></script>-->
+<!--<script type="text/javascript" src="js/rem.js"></script>-->
+<!--正是环境-->
+<script src="http://baokuan.99114.com/js/index.js"></script>
+<script type="text/javascript" src="http://baokuan.99114.com/js/rem.js"></script>
+</html>
